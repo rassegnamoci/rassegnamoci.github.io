@@ -1,0 +1,13 @@
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+td:first-child{text-align: center;}
+td:nth-child(2){font-weight: bold;}
+td:nth-child(5){text-align: center;}
+td:nth-child(7){text-align: center;}

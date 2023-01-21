@@ -1,14 +1,16 @@
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 img.banner {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80vw;
+}
+
+.trailer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+  height: 360px;
 }
 
 body {
@@ -24,6 +26,16 @@ h1 {
 
 h2 { 
     text-align: center;
+}
+
+p.mtitle {
+    text-align: center;
+    font-size: 3em;
+}
+
+p.mdate {
+    text-align: center;
+    font-size: 2em;
 }
 
 ul.nav {

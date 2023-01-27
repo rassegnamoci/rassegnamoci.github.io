@@ -5,6 +5,12 @@ img.banner {
   width: 80vw;
 }
 
+img.tavolarotonda {
+  display: block;
+  margin-left: auto;
+  width: 30vw;
+}
+
 .container {
     position: relative;
     display: block;
@@ -47,6 +53,20 @@ p.mdate {
     text-align: center;
     font-size: 2em;
 }
+
+p.cursive{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.shadow{
+  text-shadow: 2px 2px;
+}
+
+
+
 
 ul.nav {
     list-style-type: none;

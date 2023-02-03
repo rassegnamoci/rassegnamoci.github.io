@@ -70,7 +70,7 @@ p.mdate {
     font-size: 2em;
 }
 
-#p.cursive{
+p.cursive{
     font-family: 'Brush Script MT', cursive;
     font-size: 3em;
     margin-left: 10%;
@@ -122,7 +122,7 @@ li.nav a:hover {
 
 @media (max-width: 750px) {
     #background-video { display: none; }
-    #p.cursive{font-size: 2em;}
+    p.cursive{ font-size: 2em; }
     body {
       background: url("https://rassegnamoci.github.io/img/background.jpg") no-repeat;
       background-size: cover;

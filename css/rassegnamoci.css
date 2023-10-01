@@ -55,6 +55,13 @@ h1 {
     text-shadow: 2px 2px;
 }
 
+h1.season { 
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+    font-weight: bold;
+    font-size: 4em;
+}
+
 h2 { 
     text-align: center;
 }
@@ -89,6 +96,16 @@ ul.nav {
     background-color: transparent;
     text-align: center;
 }
+
+ul.nav_bottom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    text-align: left;
+}
+
+
 
 li.nav {
     display: inline;

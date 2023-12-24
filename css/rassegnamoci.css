@@ -88,6 +88,17 @@ p.cursive{
   text-shadow: 2px 2px;
 }
 
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: red;
+    font-family: sans-serif;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
 
 ul.nav {
     list-style-type: none;
